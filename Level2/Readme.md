@@ -1,3 +1,10 @@
+CSRF token: 2e2e2e4e6f7420746869732074696d65211808b80519cd115442a14554536ac6ea
+
+## Session fixation
+
+The Session id is clearly visible in the url and is not changed upon different sessions. One can connect to this session if he knows the session id.
+
+
 ## Reflected XSS
 
 The following will triger a reflected XSS
